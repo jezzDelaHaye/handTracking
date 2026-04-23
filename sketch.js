@@ -51,7 +51,7 @@ function draw()
             let pointX = (indexTip.x + thumbTip.x)/2
             let pointY = (indexTip.y + thumbTip.x)/2
            fill(random(255),random(255),random(255))
-            if (abs(rectX - pointX) < 30 && abs(rectY - pointY) < 200) 
+            if (abs(rectX - pointX) < 30 && abs(rectY - pointY) < 250) 
             {
                 rectX = pointX
                 rectY = pointY
